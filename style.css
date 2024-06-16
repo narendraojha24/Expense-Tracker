@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(choose\ service.jpeg);
+    background-size: cover;
+}
+img{
+    height: 700px;
+    width: 100%;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 450px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    background-color: rgb(234, 185, 122);
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"],select,input[type=number],input[type=submit]{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #030303;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #2d2c2c;
+    transition-duration: 1s;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border:2px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #0396b7;
+    color: white;
+}
